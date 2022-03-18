@@ -26,7 +26,23 @@ public class Program {
         Calendar cal = Calendar.getInstance();
         cal.setTime(d);
         int minutes = cal.get(Calendar.MINUTE);
+        int month = cal.get(Calendar.MONTH);
+        int seconds = cal.get(Calendar.SECOND);
+        int milliseconds = cal.get(Calendar.MILLISECOND);
+        int hours = cal.get(Calendar.HOUR);
+        int year =cal.get(Calendar.YEAR);
+        int week_of_month =cal.get(Calendar.WEEK_OF_MONTH);
+
+        System.out.println("Hours: " + hours);
         System.out.println("Minutes: " + minutes);
+        System.out.println("Seconds: " + seconds);
+        System.out.println("Milliseconds: " + milliseconds);
+        System.out.println("Week_of_month: " + week_of_month);
+        System.out.println("Month: " + month);
+        System.out.println("Year: " + year);
+
+
+
 
 
 
